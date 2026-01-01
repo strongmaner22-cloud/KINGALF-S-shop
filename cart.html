@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart – King Alf E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cart-page-bg">
+
+<header>
+    <h2>King Alf E-Commerce Store</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="cart-container">
+
+    <h1>Your Shopping Cart</h1>
+
+    <div class="cart-grid">
+
+        <!-- Item 1 -->
+        <div class="cart-item">
+            <img src="https://media.istockphoto.com/id/860853774/photo/blue-headphones-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=KqMSLWuM_Prrq5XHTe79bnFRU_leFDaXTuKqup5uvrE=" alt="Wireless Headset">
+            <div class="cart-details">
+                <h3>Wireless Headset (2)</h3>
+                <p>₵ 45.00</p>
+                <div class="qty-box">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="cart-item">
+            <img src="https://media.istockphoto.com/id/2147671756/vector/black-t-shirts-with-copy-space-realistic-illustration-set.jpg?s=612x612&w=0&k=20&c=0vXlOZV-u4HSSh23p1Z1ojbZKlcq_0YT4Ez2esOHtMI=" alt="Shirts">
+            <div class="cart-details">
+                <h3>Shirts</h3>
+                <p>₵ 85.00</p>
+                <div class="qty-box">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CART TOTAL -->
+    <div class="cart-summary">
+        <h2>Order Summary</h2>
+        <p>Subtotal: <strong>₵ 130.00</strong></p>
+        <p>Delivery Fee: <strong>₵ 20.00</strong></p>
+        <hr>
+        <p class="total">Total: <strong>₵ 150.00</strong></p>
+
+        <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2025 Poultry Farm Hub — All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
